@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="112dp"
         android:background="@color/primary"
-        android:elevation="8dp">
+        android:elevation="4dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -18,7 +18,8 @@
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:layout_gravity="bottom">
+            android:gravity="bottom"
+            app:layout_scrollFlags="scroll|enterAlways">
 
             <ImageView
                 android:layout_width="wrap_content"
